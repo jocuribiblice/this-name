@@ -1,0 +1,21 @@
+div.container img {
+  max-height: 200px;
+  width: auto;
+  margin-bottom: 1em;
+}
+
+a.btn {
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+
+p#status {
+  background: #EEEEEE;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+p.app-info {
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+}
