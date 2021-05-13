@@ -1,14 +1,19 @@
 $(document).ready(function() {
   window.possible_words = [
-    ["nume1", "ce înseamnă nume1"],
-    ["nume2", "ce înseamnă nume2"],
-    ["nume3", "ce înseamnă nume3"],
-    ["nume4", "ce înseamnă nume4"],
-    ["nume5", "ce înseamnă nume5"],
-    ["nume6", "ce înseamnă nume6"],
-    ["nume7", "ce înseamnă nume7"],
-    ["nume8", "ce înseamnă nume8"],
-    ["nume9", "ce înseamnă nume9"],
+    ["Avraam", "Tată al unei mulțimi"],
+    ["Ruben", "Vedeți fiu"],
+    ["Simeon", "Ascultare"],
+    ["Levi", "Alipire"],
+    ["Iuda", "Lăudat fie Domnul"],
+    ["Dan", "A judecat"],
+    ["Neftali", "Luptele lui Dumnezeu"],
+    ["Gad", "Noroc"],
+    ["Așer", "Fericit"],
+    ["Isahar", "Răsplătire"],
+    ["Zabulon", "Locuință"],
+    ["Dina", "Judecată"],
+    ["Iosif", "Adaos"],
+    ["Israel", "Cel ce luptă cu Dumnezeu"],
   ];
   window.game_is_finished = false;
   window.hint = "";
