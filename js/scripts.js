@@ -1,7 +1,14 @@
 $(document).ready(function() {
   window.possible_words = [
-    // aici vin definitii
-    // TODO clean code
+    ["nume1", "ce înseamnă nume1"],
+    ["nume2", "ce înseamnă nume2"],
+    ["nume3", "ce înseamnă nume3"],
+    ["nume4", "ce înseamnă nume4"],
+    ["nume5", "ce înseamnă nume5"],
+    ["nume6", "ce înseamnă nume6"],
+    ["nume7", "ce înseamnă nume7"],
+    ["nume8", "ce înseamnă nume8"],
+    ["nume9", "ce înseamnă nume9"],
   ];
   window.game_is_finished = false;
   window.hint = "";
@@ -93,8 +100,6 @@ $(document).ready(function() {
   function start_game() {
     choose_word();
     choose_answers();
-
-    $("div.img-people-container").append("<img class='people' src='./assets/people/small/" + filename(window.word) + ".png' />");
 
     $("a.btn.btn-answer").on("click", function(evt) {
       evt.preventDefault();
