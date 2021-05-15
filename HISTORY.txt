@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.1 - (2021-05-16)
+--------------------
+* Improve: simplify content and layout.
+  [GhitaB]
+
 1.0.0 - (2021-05-13)
 --------------------
 * Feature: first release.
