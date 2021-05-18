@@ -79,12 +79,14 @@ $(document).ready(function() {
   function game_over() {
     $("p#status").text("Răspuns corect: " + window.word.toUpperCase());
     game_is_finished = true;
+    $("a#next-exercise").show();
   }
 
 
   function win() {
     $("p#status").css({"background": "#2ecc71"});
     game_is_finished = true;
+    $("a#next-exercise").show();
   }
 
 
@@ -104,6 +106,7 @@ $(document).ready(function() {
   function start_game() {
     choose_word();
     choose_answers();
+    $("a#next-exercise").hide();
 
     $("a.btn.btn-answer").on("click", function(evt) {
       evt.preventDefault();

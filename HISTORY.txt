@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.1.1 - (unreleased)
+--------------------
+* Improve: show next exercise on complete.
+  [GhitaB]
+
 1.1.0 - (2021-05-16)
 --------------------
 * Improve: better layout.
